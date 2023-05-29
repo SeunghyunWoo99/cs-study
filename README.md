@@ -60,13 +60,57 @@
 
 
 ## 🌱 네이밍 컨벤션
-- 단원 별 디렉토리
+- 단원 별 디렉토리 구조
+  - 소단원까지만 디렉토리 생성
+```
+└── 📂 디자인 패턴과 프로그레밍 패러다임
+       ├── 📂 디자인 패턴
+       │      ├── 💾 README.md
+       │      ├── 💾...
+       │      └── 💾 팩토리 패턴 vs 탬플릿 패턴.cpp
+       ├── 📂 프로그래밍 패러다임
+       └── 💾 README.md
+└── 📂 네트워크
+       ├── 📂 네트워크의 기초
+       │      ├── 💾 README.md
+       │      ├── 💾...
+       │      └── 💾 개인 주제.cpp
+       ├── 📂...
+       └── 💾 README.md
+└── 📂 운영체제
+       ├── 📂 운영체제와 컴퓨터
+       │      ├── 💾 README.md
+       │      ├── 💾...
+       │      └── 💾 개인 주제.cpp
+       ├── 📂...
+       └── 💾 README.md
+└── 📂 데이터베이스
+       ├── 📂 데이터베이스의 기본
+       │      ├── 💾 README.md
+       │      ├── 💾...
+       │      └── 💾 개인 주제.cpp
+       ├── 📂...
+       └── 💾 README.md
+└── 📂 자료 구조
+       ├── 📂 복잡도
+       │      ├── 💾 README.md
+       │      ├── 💾...
+       │      └── 💾 개인 주제.cpp
+       ├── 📂...
+       └── 💾 README.md
+```
 - 개인 별 pr 생성
+  - `단원명_이름이니셜`
+  - eg) `design_wsh`
+- 커밋 메세지 컨벤션
+  - [주제] 내용 상태
+  - eg) `[Design Pattern] Factory Pattern vs. Template Pattern Add` 
+
 
 
 
 ## 🔗 참고 자료
-스터디의 주제는 아래 자료들을 참고합니다
+스터디의 주제 및 면접 질문은 아래 자료들을 참고합니다
 - [Interview Question for Beginner](https://github.com/JaeYeopHan/Interview_Question_for_Beginner)
 - [Tech Interview for Developer](https://github.com/gyoogle/tech-interview-for-developer)
 - [CS 기술면접 질문](https://mangkyu.tistory.com/88)
