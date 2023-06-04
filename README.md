@@ -100,12 +100,16 @@
        ├── 📂...
        └── 💾 README.md
 ```
-- 개인 별 pr 생성
+- 브랜치 네이밍 컨벤션
   - `단원명_이름이니셜`
   - eg) `design_wsh`
 - 커밋 메세지 컨벤션
   - [주제] 내용 상태
-  - eg) `[Design Pattern] Factory Pattern vs. Template Pattern Add` 
+  - eg) `[Design Pattern] Factory Pattern vs. Template Pattern Add`
+- 개인 별 pr 생성
+  - [주제] 제목 by 팀원이름
+  - eg) `[Design Pattern] 책 부가설명 by 우승현`
+  - eg) `[개인 과제] 탬플릿 패턴 vs 팩토리  by 우승현`
 
 
 
