@@ -199,7 +199,39 @@ cf. 즉시 실행 함수
 
 
 ## 1.1.8 MVC 패턴
+보통 모델 쪽에서 비즈니스 로직을 포함.
+(출처: https://velog.io/@se_bb/Spring-Framework-7%EA%B0%95-Spring-MVC-%EC%86%8C%EA%B0%9C)
 
+안드로이드 - 앱에서 사용하는 데이터, 상태, 비즈니스 로직 포함.
+
+스프링부트
+비즈니스 로직 처리를 담당하는 곳은 Domain(Web, Service, Repository, Dtos, Domain Model 다섯 계층 중에) 
+(출처: https://nocount.tistory.com/170)
+도메인 모델이 비즈니스 로직과 상태를 가지고 있다
+(출처: https://velog.io/@newtownboy/Spring-MVC%ED%8C%A8%ED%84%B4)
+
+스프링
+MVC2 패턴에서 다섯 계층 중 Service(dao, 서비스는 모델 컴포넌트라고 한다)에서 비즈니스 로직이 수행된다고 한다.
+(출처: https://velog.io/@newtownboy/Spring-MVC%ED%8C%A8%ED%84%B4)
+
+Vue.js
+MVVM 패턴을 활용함. MVVM에서 Model이 비즈니스 로직을 포함
+(출처: https://taenami.tistory.com/130)
+(출처: https://infiduk.github.io/2020/09/08/vue-study.html)
+
+라라벨
+컨트롤러에서 비즈니스 로직 구현
+(출처: https://phsun102.tistory.com/17)
+라라벨은 mvc 아키텍처를 따르는 프레임워크. 컨트롤러는 어플리케이션이 가지고 있는 대부분의 비즈니스 로직을 구현하는 부분
+(출처: https://pronist.dev/138)
+
+Django
+MVC 패턴의 프레임워크
+Model, Template(View), View(Controller)
+Model, View(Controller)에 비즈니스 로직을 넣어 구현할 수 있는데 정답은 없다고 함
+(출처: https://jay-ji.tistory.com/74)
+model, view, service, queryst/manager 에 비즈니스 로직을 추가할 만한 곳이라고함. 그리고 장단점 모두 보유
+(출처: https://americanopeople.tistory.com/304)
 
 
 
