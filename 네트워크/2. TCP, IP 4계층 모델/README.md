@@ -21,7 +21,7 @@ ICMP(Internet Control Message Protocol) - IP 패킷 전송 중 에러 발생 시
 
  
 
-비연결형(connectionless)적인 특징(비연결형 서비스)
+비연결형 서비스(비연결형(connectionless)적인 특징)
 
 전송 순서를 보장해주지 않는다(연결 통로가 존재하지 않는다.)
 
