@@ -237,7 +237,13 @@ model, view, service, queryst/manager 에 비즈니스 로직을 추가할 만�
 
 ## 1.1.9 MVP 패턴
 
+p.55
 
+MVP 패턴
+
+MVC에서 컨트롤러(C)라 프레젠터(presenter)로  교체된 패턴.
+
+뷰와 프레젠터는 일대일 관계이기 때문에 MVC보다 더 강한 결합을 지님.
 
 
 ## 1.1.10 MVVM 패턴
