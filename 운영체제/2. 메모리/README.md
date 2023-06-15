@@ -104,11 +104,17 @@ p. 144
  
 
 //책 144쪽 코드
+
 let arr = Array.from({length : 10}, () => 0);
+
 console.log(arr)
+
 for(let i = 0; i < 10; i += 1) {
+
 	arr[i] = i;
+ 
 }
+
 console.log(arr)
  
 
@@ -125,13 +131,21 @@ console.log(arr)
  
 
 int arr[30000][30000] = {};
+
 for(int i = 0; i < 30000; i++){
+
 	for(int j = 0; j < 3000; j++)
+ 
     {
+    
     	(1)arr[i][j] = 1;
+     
         (2)arr[j][i] = 1;
+	
     }
+    
 }
+
 (1)의 경우: 메모리에 연속적으로 접근
 
 (2)의 경우: 메모리에 연속적으로 접근하지 못해 시간이 오래 걸림.
