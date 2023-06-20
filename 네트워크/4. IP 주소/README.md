@@ -93,17 +93,8 @@ IPv6으로 바뀌는 추세이지만 가장 많이 쓰는 주소 체계는 IPv4.
 
 클래스 기반 할당 방식(classful network addressing)
 
- 	첫 번째 바이트	두 번째 바이트	세 번째 바이트	네 번째 바이트
-클래스 A
-(일대일 통신)	네트워크 주소	호스트 주소
-클래스 B
-(일대일 통신)	네트워크 주소	호스트 주소
-클래스 C
-(일대일 통신)	네트워크 주소	호스트 주소
-클래스 D
-(멀티캐스트 통신)	브로드캐스트용 주소
-클래스 E
-(예비용)	예비용 주소
+![image](https://github.com/jejxis/cs-study/assets/69408166/71408a66-7280-4bc9-b8d5-b1103e01674e)
+
 클래스A 범위
 
 0.0.0.0 ~ 127.255.255.255
@@ -171,6 +162,7 @@ NAT(Network Address Translation)
 NAT를 가능하게 하는 소프트웨어: ICS, RRAS, Netfilter
 
  
+![image](https://github.com/jejxis/cs-study/assets/69408166/38d52de9-6d26-4a9c-b9e8-e70a94071457)
 
 
 책 보고 그린 그림
